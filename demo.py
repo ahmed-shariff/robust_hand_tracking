@@ -17,7 +17,7 @@ def demo(cfgfile, weightfile):
         namesfile = 'data/hands.names'
     class_names = load_class_names(namesfile)
 
-    use_cuda = 1
+    use_cuda = 0
     if use_cuda:
         m.cuda()
 
